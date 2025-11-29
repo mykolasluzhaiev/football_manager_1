@@ -1,0 +1,168 @@
+* {
+    outline: 1px solid red;
+    font-family: "Arial";
+}
+
+body {
+    background-color: #8dc53f;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    box-sizing: border-box;
+    max-width: 960px;
+    margin: 0 auto;
+
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #ffffff;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+
+
+
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    margin: 25 3425 14;
+}
+
+
+
+em {
+    display: inline-block;
+    font-size: 22px;
+    line-height: 7px;
+    color: #39930d;
+
+
+
+}
+
+strong {
+    font-size: 44px;
+    color: #39930d;
+    font-weight: bold;
+
+}
+
+i {
+    font-size: 14px;
+
+    color: #5a5a5a;
+    font-style: italic;
+
+}
+
+.logo_img {
+    margin-left: 34px;
+}
+
+.phone a {
+    display: inline-block;
+    font-size: 22px;
+
+    color: #39930d;
+
+    text-align: right;
+    text-decoration: none;
+    margin-bottom: 11px;
+}
+
+.phone p {
+    text-align: right;
+}
+
+p i {
+    font-size: 14px;
+
+    color: #5a5a5a;
+    font-style: italic;
+
+    text-align: right;
+}
+
+.grass {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.flex_beetwin {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    padding: 25px 0 47px;
+
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #39930d;
+    font-weight: bold;
+
+    margin-bottom: 17px;
+}
+
+.main_info {
+
+
+    font-size: 14px;
+    line-height: 21px;
+    color: #343434;
+
+}
+
+nav {
+    min-width: 300px;
+    width: 100%;
+}
+
+h2 {
+    font-size: 18px;
+    align-items: center;
+    color: #ffffff;
+
+    background-color: #39930d;
+    padding: 12px 20px;
+    margin: 0;
+}
+
+ul {
+    box-sizing: border-box;
+    list-style: none;
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #39930d;
+    margin: 0;
+    padding: 20px;
+}
+
+footer {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: start;
+    background-color: #39930d;
+    width: 960px;
+    /* height: 44px; */
+    margin: 0 auto;
+    /* margin-top: 20px; */
+    padding: 11px 15px;
+    font-size: 14px;
+    color: #ffffff;
+}
