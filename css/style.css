@@ -1,5 +1,4 @@
 * {
-    outline: 1px solid red;
     font-family: "Arial";
 }
 
@@ -26,20 +25,41 @@ p {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding: 25px 0;
+    row-gap: 30px;
+
 
 
 
 }
+
+
+
 
 .logo {
     display: flex;
     justify-content: flex-start;
+    flex-direction: column;
     margin: 25 3425 14;
+    row-gap: 30px;
+
 }
 
 
+@media screen and (min-width:600px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: top;
+    }
+
+    .logo {
+        flex-direction: row;
+    }
+}
 
 em {
     display: inline-block;
@@ -82,7 +102,7 @@ i {
 }
 
 .phone p {
-    text-align: right;
+    text-align: center;
 }
 
 p i {
@@ -91,7 +111,7 @@ p i {
     color: #5a5a5a;
     font-style: italic;
 
-    text-align: right;
+    text-align: center;
 }
 
 .grass {
@@ -100,9 +120,25 @@ p i {
 
 }
 
+.main_adaptiv {
+    flex-direction: column;
+}
+
+@media screen and(min-width:625px) {
+    .phone p {
+        text-align: right;
+
+    }
+
+    p i {
+        text-align: right;
+    }
+}
+
 .flex_beetwin {
     display: flex;
     justify-content: space-between;
+    /* flex-direction: row; */
     column-gap: 20px;
     padding: 25px 0 47px;
 
@@ -153,15 +189,13 @@ ul {
     padding: 20px;
 }
 
-footer {
+footer.container {
     box-sizing: border-box;
     display: flex;
     justify-content: start;
+
     background-color: #39930d;
-    width: 960px;
-    /* height: 44px; */
     margin: 0 auto;
-    /* margin-top: 20px; */
     padding: 11px 15px;
     font-size: 14px;
     color: #ffffff;
